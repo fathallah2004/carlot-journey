@@ -1,0 +1,24 @@
+
+# Enable rewriting
+RewriteEngine On
+
+# Handle 404 errors
+ErrorDocument 404 /404.html
+
+# Prevent directory listing
+Options -Indexes
+
+# Add trailing slashes to URLs if they don't have them
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ $1/ [L,R=301]
+
+# Allow PHP files to be accessed without extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Ensure PHP errors are not displayed to users
+php_flag display_errors Off
+php_value error_reporting 0

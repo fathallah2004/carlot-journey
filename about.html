@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carlot - Premium Car Marketplace</title>
+  <title>About Us | Carlot - Premium Car Marketplace</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
@@ -24,8 +24,8 @@
       <nav class="main-nav">
         <ul>
           <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="inventory.php" class="nav-link active">Inventory</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="inventory.php" class="nav-link">Inventory</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
           <li><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>
       </nav>
@@ -46,65 +46,122 @@
   </header>
 
   <main>
-    <section class="hero">
+    <!-- Hero Section -->
+    <section class="about-hero">
       <div class="hero-content container">
-        <h1>Find Your Perfect Drive</h1>
-        <p>Discover premium vehicles curated for those who appreciate quality and performance</p>
-        <div class="hero-cta">
-          <a href="inventory.php" class="btn-primary">Browse Inventory</a>
-          <a href="contact.php" class="btn-secondary">Contact Us</a>
+        <h1>About Us</h1>
+        <p>Discover the story behind our passion for automotive excellence</p>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="about-section container">
+      <div class="about-grid">
+        <div class="about-content">
+          <span class="section-badge">Our Story</span>
+          <h2>A Legacy of Excellence</h2>
+          <p>
+            Founded in 2010, Carlot was born from a passion for automotive excellence and a vision to transform the car buying experience. What began as a small curated collection of premium vehicles has evolved into one of the most respected automotive retailers in the industry.
+          </p>
+          <p>
+            Our commitment to quality, transparency, and customer satisfaction has been the driving force behind our growth. We believe that purchasing a premium vehicle should be an experience as refined as the cars themselves.
+          </p>
+          <p>
+            Today, we continue to expand our collection while maintaining our founding principles: offering only the finest vehicles, providing exceptional service, and ensuring complete satisfaction for every client who walks through our doors.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1789&q=80" alt="Our showroom">
         </div>
       </div>
     </section>
 
-    <section class="featured-cars container">
-      <div class="section-header">
-        <h2>Featured Vehicles</h2>
-        <p>Explore our collection of premium automobiles</p>
-      </div>
-      <div class="car-grid" id="featured-cars-grid">
-        <!-- Cars will be loaded here via JavaScript -->
-      </div>
-      <div class="view-all">
-        <a href="inventory.php" class="btn-outline">View All Cars</a>
-      </div>
-    </section>
-
-    <section class="why-choose-us">
+    <!-- Our Values -->
+    <section class="values-section">
       <div class="container">
         <div class="section-header">
-          <h2>Why Choose Us</h2>
-          <p>We provide an exceptional car buying experience</p>
+          <span class="section-badge">Our Values</span>
+          <h2>What Drives Us</h2>
+          <p>
+            At Carlot, our values form the foundation of everything we do. They guide our decisions, shape our culture, and define our commitment to both our clients and the automotive industry.
+          </p>
         </div>
-        <div class="features-grid">
-          <div class="feature">
-            <div class="feature-icon">
+        
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 12L11 14L15 10M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 4L21.5 9L16.5 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.5 9H7.5C4.18629 9 1.5 11.6863 1.5 15V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3>Quality Verified</h3>
-            <p>Every vehicle in our inventory undergoes a rigorous inspection process.</p>
+            <h3>Quality Without Compromise</h3>
+            <p>We meticulously select each vehicle in our inventory, ensuring only the finest examples make it to our showroom floor.</p>
           </div>
-          <div class="feature">
-            <div class="feature-icon">
+          
+          <div class="value-card">
+            <div class="value-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 4L21.5 9L16.5 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.5 9H7.5C4.18629 9 1.5 11.6863 1.5 15V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3>Quick Process</h3>
-            <p>Streamlined purchasing process saves you time and hassle.</p>
+            <h3>Transparency & Trust</h3>
+            <p>We believe in complete honesty about every vehicle's history, condition, and value, building lasting relationships based on trust.</p>
           </div>
-          <div class="feature">
-            <div class="feature-icon">
+          
+          <div class="value-card">
+            <div class="value-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 14C19 16.7614 16.7614 19 14 19H6C3.23858 19 1 16.7614 1 14V6C1 3.23858 3.23858 1 6 1H14C16.7614 1 19 3.23858 19 6V14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M18.5 17.7L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 4L21.5 9L16.5 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M21.5 9H7.5C4.18629 9 1.5 11.6863 1.5 15V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <h3>Transparent Pricing</h3>
-            <p>No hidden fees or surprise costs - what you see is what you pay.</p>
+            <h3>Exceptional Experience</h3>
+            <p>From the first interaction to years of ownership, we strive to make every aspect of the Carlot experience memorable and satisfying.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section container">
+      <div class="section-header">
+        <span class="section-badge">Our Team</span>
+        <h2>Meet The Experts</h2>
+        <p>
+          Our team combines decades of automotive expertise with a passion for exceptional service, creating an unparalleled client experience.
+        </p>
+      </div>
+      
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1787&q=80" alt="Alexander Mitchell">
+          </div>
+          <div class="member-info">
+            <h3>Alexander Mitchell</h3>
+            <p>Founder & CEO</p>
+          </div>
+        </div>
+        
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1788&q=80" alt="Sophia Reynolds">
+          </div>
+          <div class="member-info">
+            <h3>Sophia Reynolds</h3>
+            <p>Head of Acquisitions</p>
+          </div>
+        </div>
+        
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1787&q=80" alt="James Wilson">
+          </div>
+          <div class="member-info">
+            <h3>James Wilson</h3>
+            <p>Head of Client Relations</p>
           </div>
         </div>
       </div>
@@ -175,6 +232,5 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/cars.js"></script>
 </body>
 </html>

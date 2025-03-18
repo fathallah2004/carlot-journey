@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carlot - Premium Car Marketplace</title>
+  <title>Page Not Found | Carlot - Premium Car Marketplace</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
@@ -24,7 +24,7 @@
       <nav class="main-nav">
         <ul>
           <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="inventory.php" class="nav-link active">Inventory</a></li>
+          <li><a href="inventory.php" class="nav-link">Inventory</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
           <li><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>
@@ -46,69 +46,19 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-content container">
-        <h1>Find Your Perfect Drive</h1>
-        <p>Discover premium vehicles curated for those who appreciate quality and performance</p>
-        <div class="hero-cta">
-          <a href="inventory.php" class="btn-primary">Browse Inventory</a>
-          <a href="contact.php" class="btn-secondary">Contact Us</a>
-        </div>
+    <div class="container">
+      <div class="not-found">
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <p>It seems the page you're looking for doesn't exist or has been moved.</p>
+        <a href="index.html" class="btn-primary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Return Home
+        </a>
       </div>
-    </section>
-
-    <section class="featured-cars container">
-      <div class="section-header">
-        <h2>Featured Vehicles</h2>
-        <p>Explore our collection of premium automobiles</p>
-      </div>
-      <div class="car-grid" id="featured-cars-grid">
-        <!-- Cars will be loaded here via JavaScript -->
-      </div>
-      <div class="view-all">
-        <a href="inventory.php" class="btn-outline">View All Cars</a>
-      </div>
-    </section>
-
-    <section class="why-choose-us">
-      <div class="container">
-        <div class="section-header">
-          <h2>Why Choose Us</h2>
-          <p>We provide an exceptional car buying experience</p>
-        </div>
-        <div class="features-grid">
-          <div class="feature">
-            <div class="feature-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 12L11 14L15 10M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <h3>Quality Verified</h3>
-            <p>Every vehicle in our inventory undergoes a rigorous inspection process.</p>
-          </div>
-          <div class="feature">
-            <div class="feature-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <h3>Quick Process</h3>
-            <p>Streamlined purchasing process saves you time and hassle.</p>
-          </div>
-          <div class="feature">
-            <div class="feature-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M19 14C19 16.7614 16.7614 19 14 19H6C3.23858 19 1 16.7614 1 14V6C1 3.23858 3.23858 1 6 1H14C16.7614 1 19 3.23858 19 6V14Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M18.5 17.7L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <h3>Transparent Pricing</h3>
-            <p>No hidden fees or surprise costs - what you see is what you pay.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
   </main>
 
   <footer class="site-footer">
@@ -175,6 +125,5 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/cars.js"></script>
 </body>
 </html>
